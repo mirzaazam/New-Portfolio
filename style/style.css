@@ -228,7 +228,7 @@ ul .btn {
     font-weight: 700;
     font-size: 14px;
     padding: 5px 0;
-    
+
 }
 
 .edu-time {
@@ -241,8 +241,50 @@ ul .btn {
     margin-bottom: 10px;
     text-align: justify;
 }
-.btnn{
+
+.btnn {
     max-width: 1000px;
     text-align: center;
     margin: 30px auto;
+}
+
+.footer-sub-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 200px;
+    padding: 100px 0;
+}
+
+.footer-container {
+    background-color: #fff8f3;
+}
+
+.contact-title {
+    
+}
+
+.contact-des {
+    color: lightgray;
+    padding: 10px 0;
+}
+.form-input{
+    display: block;
+    padding: 15px 10px ;
+    width: 283px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+}
+.msg-box{
+    display: block;
+    padding: 0 0 0 10px;
+    width: 290px;
+    height: 100px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.message-title{
+    padding: 5px 0;
 }
