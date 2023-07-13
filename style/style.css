@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+   background: #fff8f3;
+}
+.Header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    color: gray;
+}
+
+nav h3 {
+    margin-left: 100px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+h1{
+    font-size:50px ;
+}
+h3 span {
+    color: orange;
+}
+ul .btn{
+    padding: 8px 15px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.btn{
+    padding: 8px 15px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.banner-text h1{
+    margin-bottom: 10px;
+}
+.banner-text p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.magic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(to right, red , yellow);
+    position: absolute;
+    right: 90px;
+    bottom: 5px;
+    z-index: -2;
+}
+.banner-img{
+    position: relative;
+    z-index: 1;
+}
+.about-section{
+    width: 800px;
+    padding: 50px 100px;
+    margin: 100px auto;
+    background: #fff8f3;
+    }
+.about-section h2,p{
+    text-align: center;
+     margin-bottom: 10px;
+    
+}
+/* .footer-about{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.footer-about .name{
+    margin-left: 70px;
+    text-align: center;
+}
+.footer-about .email{
+    margin-left: 80px;
+    text-align:center;l
+}
+.footer-about .dob{
+    margin-left: 80px;
+    text-align: center;
+}
+.footer-about .form{
+    margin-left: 80px;
+    text-align: center;
+} */
+
+.footer-title{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info .info-title{
+    font-weight: 600;
+    color: gray;
+}
+.info-des{
+    color: gray;
+    
+}
