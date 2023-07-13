@@ -202,18 +202,20 @@ ul .btn {
 /* My Resume section */
 .resume {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .education {
     display: flex;
     gap: 40px;
     max-width: 1000px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .resume-section {
     padding: 10px;
     border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
 }
 
 .resume-title {
@@ -225,6 +227,7 @@ ul .btn {
 .edu-title {
     font-weight: 700;
     font-size: 14px;
+    padding: 5px 0;
 }
 
 .edu-time {
