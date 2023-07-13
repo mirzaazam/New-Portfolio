@@ -109,12 +109,13 @@ ul .btn {
     padding: 50px 100px;
     margin: 100px auto;
     background: #fff8f3;
+    border-radius: 10px;
 }
 
 .about-section h2 {
     text-align: center;
     margin-bottom: 10px;
-
+    
 }
 
 /* .footer-about{
@@ -144,6 +145,7 @@ ul .btn {
 .footer-title {
     display: flex;
     justify-content: space-around;
+    padding: 20px 0;
 }
 
 .footer-info .info-title {
@@ -190,7 +192,7 @@ ul .btn {
 .skills-box {
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .skills-box:hover {
