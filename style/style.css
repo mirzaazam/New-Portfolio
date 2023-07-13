@@ -228,6 +228,7 @@ ul .btn {
     font-weight: 700;
     font-size: 14px;
     padding: 5px 0;
+    
 }
 
 .edu-time {
@@ -239,4 +240,9 @@ ul .btn {
     color: gray;
     margin-bottom: 10px;
     text-align: justify;
+}
+.btnn{
+    max-width: 1000px;
+    text-align: center;
+    margin: 30px auto;
 }
