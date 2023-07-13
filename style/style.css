@@ -3,9 +3,11 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
-   background: #fff8f3;
+
+header {
+    background: #fff8f3;
 }
+
 .Header nav {
     display: flex;
     justify-content: space-between;
@@ -27,7 +29,8 @@ nav li a {
     text-decoration: none;
     color: black;
 }
-nav li a:hover{
+
+nav li a:hover {
     color: gray;
 }
 
@@ -42,19 +45,23 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-family: 'Satisfy', cursive;
 }
-h1{
-    font-size:50px ;
+
+h1 {
+    font-size: 50px;
 }
+
 h3 span {
     color: orange;
 }
-ul .btn{
+
+ul .btn {
     padding: 8px 15px;
     border: none;
     background-color: orangered;
     color: white;
 }
-.btn{
+
+.btn {
     padding: 8px 15px;
     border: none;
     background-color: orangered;
@@ -64,44 +71,52 @@ ul .btn{
     margin-left: 20px;
 
 }
-.banner{
+
+.banner {
     display: flex;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
 }
-.banner-text h1{
+
+.banner-text h1 {
     margin-bottom: 10px;
 }
-.banner-text p{
+
+.banner-text p {
     margin-bottom: 10px;
     text-align: justify;
 }
-.magic{
+
+.magic {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: linear-gradient(to right, red , yellow);
+    background: linear-gradient(to right, red, yellow);
     position: absolute;
     right: 90px;
     bottom: 5px;
     z-index: -2;
 }
-.banner-img{
+
+.banner-img {
     position: relative;
     z-index: 1;
 }
-.about-section{
+
+.about-section {
     width: 800px;
     padding: 50px 100px;
     margin: 100px auto;
     background: #fff8f3;
-    }
-.about-section h2,p{
-    text-align: center;
-     margin-bottom: 10px;
-    
 }
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
 /* .footer-about{
     display: flex;
     justify-content: center;
@@ -126,52 +141,99 @@ ul .btn{
     text-align: center;
 } */
 
-.footer-title{
+.footer-title {
     display: flex;
     justify-content: space-around;
 }
-.footer-info .info-title{
+
+.footer-info .info-title {
     font-weight: 600;
     color: gray;
-}
-.info-des{
-    color: gray;
-
-}
-
-.what-do{
     text-align: center;
 }
 
-.skills{
+.info-des {
+    color: gray;
+
+}
+
+.what-do {
+    text-align: center;
+}
+
+.skills {
     display: flex;
     max-width: 1000px;
     margin: 100px auto;
     gap: 15px;
 }
-.skills-img{
+
+.skills-img {
     max-width: 30px;
     margin-bottom: 10px;
     align-items: center;
 }
-.skills-title{
+
+.skills-title {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
     text-align: left;
 }
-.skills-des{
+
+.skills-des {
     font-size: 10px;
     color: gray;
     text-align: justify;
 }
-.skills-box{
+
+.skills-box {
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
-.skills-box:hover{
+
+.skills-box:hover {
     transform: scale(1.05);
     transition: .5s;
     cursor: pointer;
+}
+
+/* My Resume section */
+.resume {
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.resume-section {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.resume-title {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.edu-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.edu-time {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.edu-des {
+    color: gray;
+    margin-bottom: 10px;
+    text-align: justify;
 }
