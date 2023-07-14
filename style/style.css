@@ -62,14 +62,25 @@ ul .btn {
 }
 
 .btn {
-    padding: 8px 15px;
+    padding: 10px 15px;
     border: none;
     background-color: orangered;
     color: white;
     cursor: pointer;
     border-radius: 5px;
     margin-right: 10px;
+    font-weight: 700;
+}
 
+.btn-contact{
+    padding: 8px 15px;
+    border: 2px solid orangered;
+    background-color: #fff8f3;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 700;
 }
 
 .banner {
@@ -297,4 +308,7 @@ textarea{
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     padding: 20px;
+}
+.fa-regular{
+    padding: 0 5px 0 0;
 }
