@@ -254,7 +254,7 @@ ul .btn {
 .footer-sub-container {
     display: flex;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 0 auto;
     gap: 200px;
     padding: 100px 0;
 }
@@ -281,7 +281,7 @@ ul .btn {
 }
 textarea{
     
-    padding: 0 0 0 10px;
+    padding: 5px 0 0 10px;
     width: 290px;
     height: 100px;
     margin: 10px 0;
